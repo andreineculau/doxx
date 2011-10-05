@@ -58,6 +58,7 @@ table#source tr.filename {
 
 table#source tr.filename td:first-child {
     text-transform: capitalize;
+    background: #F5F5FF;
 }
 
 table#source tr.filename td:last-child {
