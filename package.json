@@ -1,10 +1,14 @@
 {
-  "name": "dox",
-  "description": "Markdown / JSdoc documentation generator",
-  "version": "0.0.5",
-  "author": "TJ Holowaychuk <tj@vision-media.ca>",
-  "keywords": ["documentation", "docs", "markdown", "jsdoc"],
-  "directories": { "lib": "./lib/dox" },
-  "main": "./lib/dox/index",
-  "bin": { "dox": "./bin/dox" }
+    "name": "dox",
+    "description": "Markdown / JSdoc documentation generator",
+    "version": "0.0.5-mod",
+    "author": "TJ Holowaychuk <tj@vision-media.ca>",
+    "keywords": ["documentation", "docs", "markdown", "jsdoc"],
+    "directories": { "lib": "./lib/dox" },
+    "main": "./lib/dox/index",
+    "bin": { "dox": "./bin/dox" },
+    "dependencies": {
+        "koala": "0.1.2",
+        "github-flavored-markdown": "1.0.0"
+    }
 }
