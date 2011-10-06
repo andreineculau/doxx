@@ -123,6 +123,11 @@ table#source tr.code td.code {
     padding: 10px 0 10px 10px;
 }
 
+table#source tr.code td.code pre {
+    overflow: scroll;
+    width: 99%;
+}
+
 code .string { color: #219161; }
 code .regexp { color: #219161; }
 code .keyword { color: #954121; }
