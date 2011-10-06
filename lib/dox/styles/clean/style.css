@@ -83,7 +83,7 @@ table#source tr.filename h2 {
 table#source tr.code h1,
 table#source tr.code h2,
 table#source tr.code h3 {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
     font-size: 18px;
 }
@@ -109,7 +109,6 @@ table#source tr.code ul li p {
 
 /* DOCS COLUMN */
 table#source tr.code td.docs {
-    border-bottom: 1px solid #E5E5EE;
     padding: 5px 10px 5px 10px;
 }
 
