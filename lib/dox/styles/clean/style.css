@@ -109,7 +109,7 @@ table#source tr.code ul li p {
 
 /* DOCS COLUMN */
 table#source tr.code td.docs {
-    padding: 5px 10px 5px 10px;
+    padding: 10px;
 }
 
 table#source tr.code td:first-child pre {
@@ -118,7 +118,7 @@ table#source tr.code td:first-child pre {
 
 /* CODE COLUMN */
 table#source tr.code td.code {
-    padding: 5px 0 5px 10px;
+    padding: 10px 0 10px 10px;
 }
 
 code .string { color: #219161; }
