@@ -56,11 +56,12 @@ table#source tr.filename {
     padding-top: 40px;
     border-top: 1px solid #E5E5EE;
     border-bottom: 1px solid #E5E5EE;
-    cursor: pointer;
 }
 
-table#source tr.filename:hover {
+table#source tr.filename:hover td:first-child,
+table#source tr.filename:hover td:last-child {
     background: #FFFFFF;
+    cursor: pointer;
 }
 
 table#source tr.filename td:first-child {
