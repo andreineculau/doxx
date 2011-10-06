@@ -49,6 +49,7 @@ table#source td:last-child {
     padding: 30px 0 30px 40px;
     border-left: 1px solid #E5E5EE;
     background: #F5F5FF;
+    vertical-align: top;
 }
 
 /* FILENAME ROWS */
