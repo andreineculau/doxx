@@ -21,7 +21,7 @@ a:hover {
 }
 
 p {
-    margin: 12px 0;
+    margin: 5px 0;
 }
 
 h1, h2, h3 {
@@ -95,7 +95,7 @@ table#source tr.code h3 {
 }
 
 table#source tr.code ul {
-    margin: 15px 0 15px 35px;
+    margin: 0px 0 0px 35px;
     padding: 0;
 }
 table#source tr.code ul li {
@@ -110,6 +110,7 @@ table#source tr.code ul li p {
 /* DOCS COLUMN */
 table#source tr.code td.docs {
     padding: 10px;
+    font-size: 14px;
 }
 
 table#source tr.code td:first-child pre {
