@@ -124,7 +124,7 @@ table#source tr.code td.code {
 }
 
 table#source tr.code td.code pre {
-    overflow: scroll;
+    overflow: auto;
     width: 99%;
 }
 
