@@ -47,7 +47,6 @@ table#source td:first-child pre {
 
 table#source td:last-child {
     padding: 30px 0 30px 40px;
-    border-left: 1px solid #E5E5EE;
     background: #F5F5FF;
 }
 
@@ -119,6 +118,7 @@ table#source tr.code td:first-child pre {
 
 /* CODE COLUMN */
 table#source tr.code td.code {
+    border-left: 1px solid #E5E5EE;
     vertical-align: top;
     padding: 10px 0 10px 10px;
 }
