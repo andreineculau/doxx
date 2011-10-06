@@ -11,6 +11,7 @@ body {
     right: 0;
 }
 
+/* GENERAL */
 a {
     color: #252519;
 }
@@ -28,6 +29,7 @@ h1, h2, h3 {
     padding: 0;
 }
 
+/* TABLE */
 table#source {
     width: 100%;
     border-collapse: collapse;
@@ -54,6 +56,11 @@ table#source tr.filename {
     padding-top: 40px;
     border-top: 1px solid #E5E5EE;
     border-bottom: 1px solid #E5E5EE;
+    cursor: pointer;
+}
+
+table#source tr.filename:hover {
+    background: #FFFFFF;
 }
 
 table#source tr.filename td:first-child {
