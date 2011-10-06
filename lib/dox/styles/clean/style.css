@@ -43,6 +43,7 @@ table#source td:first-child {
 table#source td:first-child,
 table#source td:first-child pre {
     width: 500px;
+    min-width: 500px;
 }
 
 table#source td:last-child {
