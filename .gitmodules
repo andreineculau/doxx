@@ -4,3 +4,6 @@
 [submodule "support/expresso"]
 	path = support/expresso
 	url = git://github.com/visionmedia/expresso.git
+[submodule "lib/SyntaxHighlighter"]
+	path = lib/SyntaxHighlighter
+	url = git://github.com/alexgorbatchev/SyntaxHighlighter.git
