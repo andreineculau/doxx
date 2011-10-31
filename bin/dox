@@ -6,4 +6,4 @@
  * MIT Licensed
  */
 
-require('dox').parse(process.argv.slice(2));
+require('doxx').parse(process.argv.slice(2));
