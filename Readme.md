@@ -1,5 +1,20 @@
-# Dox
+# Doxx
+ Doxx is a fork of [Dox](https://github.com/visionmedia/dox).
 
+ It uses [SyntaxHighlighter](https://github.com/alexgorbatchev/SyntaxHighlighter)
+ and [github markdown](https://github.com/isaacs/github-flavored-markdown).
+
+ You can use it not only for JavaScript source files, but for any SyntaxHighlighter
+ brush available, or one that you can create yourself.
+
+ Custom brushes, like a JSON, or a REST API brush have been added.
+
+ Doxx can parse all sorts of comments as well, just tweak lib/dox/options.js
+
+ Meantimes, Dox has taken some steps in this direction as well, by outputing JSON,
+ but it still assumes that you comment only JavaScript source files. Your choice!
+
+# Dox
  Dox is a JavaScript documentation generator written for [node](http://nodejs.org).
 
  Dox is a 2 hour product of my frustration with documentation generators. I wanted
