@@ -7,9 +7,13 @@
 	  $(function(){
 	    $('tr.code').hide();
 	    $('tr.filename').toggle(function(){
-	      $(this).nextUntil('.filename').show();
+	      $(this)
+            .addClass('expanded')
+            .nextUntil('.filename').show();
 	    }, function(){
-	      $(this).nextUntil('.filename').hide();
+	      $(this)
+            .removeClass('expanded')
+            .nextUntil('.filename').hide();
 	    });
 	  });
 	</script>
