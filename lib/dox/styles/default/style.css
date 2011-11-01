@@ -123,7 +123,7 @@ table#source > tbody > tr.code + tr.code > td.comments {
 /* CODE COLUMN */
 table#source > tbody > tr.code > td.code {
     vertical-align: top;
-    padding: 0px 0px 30px 0px;
+    padding: 10px 0px 10px 0px;
     background-color: #000000;
 }
 
