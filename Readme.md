@@ -26,7 +26,7 @@
   * Supports JSDoc
   * Markdown bodies
   * Custom title / description
-  * Simple CLI `dox`
+  * Simple CLI `doxx`
   * Single file generated
   * Generated navigation menu
   * Linked function definitions with references
@@ -34,34 +34,32 @@
 
 ## Installation
 
-Install from npm:
+Install from git clone:
 
-    $ npm install dox
-
-Install from git clone or tarball:
-
-    $ make install
+    $ cd ~/.node_modules
+    $ git clone git://github.com/andreineculau/doxx
+    $ (cd doxx && npm install)
 
 ## Usage Examples
 
 Simple example:
 
-    $ dox --title Connect lib/connect/index.js
+    $ doxx --title Connect lib/connect/index.js
 
 Lots of files:
 
-    $ dox --title Connect --desc "markdown _here_" $(file lib/* -type f) > docs.html
+    $ doxx --title Connect --desc "markdown _here_" $(file lib/* -type f) > docs.html
 
 ## Usage
 
 Output from `--help`:
 
-    Usage: dox [options] <file ...>
+    Usage: doxx [options] <file ...>
 
 	Options:
 	  -t, --title      Project title
 	  -d, --desc       Project description (markdown)
-    -i, --intro      File that contains introduction text (markdown)
+      -i, --intro      File that contains introduction text (markdown)
 	  -s, --style      Document style, available: ["default"]
 	  -J, --no-jsdoc   Disable jsdoc parsing (coverts to markdown)
 	  -p, --private    Output private code in documentation
