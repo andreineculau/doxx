@@ -8,6 +8,5 @@
     "main": "./lib/dox/index",
     "bin": { "doxx": "./bin/doxx" },
     "dependencies": {
-        "github-flavored-markdown": "1.0.0"
     }
 }
