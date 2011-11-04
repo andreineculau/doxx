@@ -4,17 +4,37 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<style>{{style}}</style>
 	<script>
-	  $(function(){
-	    $('tr.code').hide();
-	    $('tr.filename').toggle(function(){
-	      $(this)
+	  $(function() {
+        var show = function(el) {
+      	  $(el)
             .addClass('expanded')
             .nextUntil('.filename').show();
-	    }, function(){
-	      $(this)
+        };
+
+        var hide = function(el) {
+      	  $(el)
             .removeClass('expanded')
             .nextUntil('.filename').hide();
+        };
+
+	    $('tr.code').hide();
+	    $('tr.filename').toggle(function() {
+          show(this);
+	    }, function() {
+          hide(this);
 	    });
+        $('#source tr:first td + td')
+          .html('Toggle all')
+          .css('cursor', 'hand')
+          .toggle(function() {
+            $('tr.filename').each(function() {
+              show(this);
+            });
+          }, function() {
+            $('tr.filename').each(function() {
+              hide(this);
+            });
+          })
 	  });
 	</script>
   </head>
